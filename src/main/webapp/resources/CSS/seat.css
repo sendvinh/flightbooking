@@ -1,0 +1,158 @@
+lable {
+    display: block;
+    float: left;
+}
+
+.flight, .chosenFlight, .noRoomFlight{
+    font-size: 0.85em;
+    max-width: 12em;
+    height: auto;
+    border: solid 1px #aaa;
+    border-radius: 80px 0 0 80px;
+    z-index: 1;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 0.5em;
+}
+
+.flightOption .flight,.flightOption .chosenFlight,.flightOption .noRoomFlight{
+    margin-bottom: 1em;
+}
+
+.flight {
+    background: #99ceff;
+}
+
+.noRoomFlight {
+    background: #df5327;
+}
+
+.chosenFlight {
+    background: #a6b727;
+}
+
+.plane {
+    max-width: 44em;
+    height: auto;
+    background: #ebf0fa;
+    border: solid 1px #aaa;
+    border-radius: 80px 0 0 80px;
+    z-index: 1;
+}
+
+.plane .head, .plane .cabin {
+    float: left;
+}
+
+.plane {
+    font-size: 0.85em;
+}
+
+.number {
+    width: 5em;
+}
+
+.number td { 
+    height: 2.05em;
+    padding: 2px;
+    text-align: right;
+}
+
+.seatTable td {
+    height: 2em;
+    padding: 2px;
+} 
+
+.seatTable p {
+    margin: 0px;
+    width: 2em;
+    height: 1.8em; 
+    border: solid 1px #666; 
+    border-radius: 7px 0 0 7px; 
+    text-align: center; 
+}
+
+.seatTable td p.aisle {
+    border: none; 
+}
+
+.seatTable .BUSINESS-BOOKED, .seatTable .ECONOMY-BOOKED {
+    background-color: #df5327;
+    color: #ffffff;
+}
+.seatTable .BUSINESS-TEMPORARY, .seatTable .ECONOMY-TEMPORARY {
+    background-color: #fec306; 
+    color: #ffffff;
+}
+.seatTable .BUSINESS-AVAILABLE {
+    background-color: #d9d9d9; 
+    color: #333333;
+    cursor: pointer;
+}
+.seatTable .ECONOMY-AVAILABLE {
+    background-color: #f2f2f2; 
+    color: #333333;
+    cursor: pointer;
+}
+.seatTable .TEMPORARY {
+    background-color: #a6b727;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.notif {
+    padding-top: 1em;
+    color: red;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.annotation .BUSINESS-AVAILABLE, 
+.annotation .ECONOMY-AVAILABLE,
+.annotation .TEMPORARY,
+.annotation .flight, 
+.annotation .chosenFlight, 
+.annotation .noRoomFlight {
+    cursor: auto;
+}
+.flights {
+    border-right: 3px solid #385d8a;  
+}
+
+
+.title {
+    text-align: center;
+    font-size: 2em;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.flightTitle, .seatTitle {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.choicemap {
+    padding-bottom: 1em;
+}
+
+.annotation {
+    margin-bottom: 2em;
+}
+.annotation td {
+    padding: 0.2em 0em;
+}
+.annotation .text {
+    padding-left: 0.5em;
+}
+.annotation .flightannotation {
+    border-right: 3px solid #385d8a;
+}
+
+
+
+

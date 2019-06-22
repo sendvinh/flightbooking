@@ -1,0 +1,47 @@
+.contain {
+    width: 800px;
+    margin: 50px auto;
+    border: solid 1px;
+}
+
+.paymentLogo, .banner {
+    text-align: center;
+}
+
+.paymentLogo img {
+    padding-top: 1.5em;
+    
+}
+
+.order {
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.banner {
+    padding: 0;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+td span {
+    font-size: 0.8em;
+}
+
+table {
+    width: 100%;
+}
+
+.errorMsg {
+    font-size: 0.9em;
+    color: red;
+}
+
+.notif {
+    font-size: 2em;
+    text-align: center;
+    color: red;
+    padding-top: 0.7em;
+}

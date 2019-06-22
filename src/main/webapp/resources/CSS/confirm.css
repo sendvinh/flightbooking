@@ -1,0 +1,47 @@
+.number { 
+    text-align: right;
+}
+
+.tableFormat thead {
+    background-color: lavender;
+}
+
+.tableFormat tbody {
+    background-color: #f2f2f2;
+}
+
+.tableFormat td {
+    vertical-align: middle;
+}
+
+.tableFormat .labelcontain {
+    padding-right:0;
+}
+
+.tableFormat .label {
+    width: 100%;
+}
+
+.tableFormat .info {
+    padding-top: 0.2em;
+}
+
+.validate {
+    font-size: 0.8em;
+    color: red;
+}
+
+.tableFormat .subtitle {
+    padding: 0 0 0 1em;
+}
+
+.tableFormat .ticketTime {
+    text-align: center;
+    color: red;
+}
+
+.tableFormat .center {
+    text-align: center;
+}
+
+

@@ -1,0 +1,54 @@
+.container-fluid {
+    width: 1024px;
+    padding: 0;
+}
+
+#header {
+    padding: 10px 0;
+    margin: auto;
+}
+
+#brand, #logo {
+    font: normal 36px 'Cookie', cursive;
+    text-align: center;
+    font-size: 2.4em;
+}
+#header a:link {
+    text-decoration: none;
+}
+#header a {
+    color: black;
+}
+#navbar {
+    font-size: 1.2em;
+    text-align: center;
+}
+#navbar ul {
+    margin-top: 7px;
+}
+
+.backnext {
+    padding-bottom: 15px;
+}
+
+
+.alert {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #3a87ad;
+    margin: 5px auto 16px;
+}
+
+.alert p {
+    margin: 2px;
+}
+
+.deletebutton {
+    cursor: pointer;
+}
+
+.error {
+    font-size: 0.8em;
+    color: red;
+}
+

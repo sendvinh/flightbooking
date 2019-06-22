@@ -1,0 +1,15 @@
+#login {
+    background: linear-gradient(#e6f2ff,#00467f);
+    margin: 0 15px;
+    padding-bottom: 15px;
+}
+
+#booking {
+    margin: 0 15px;
+    padding: 0;
+}
+
+#loginOrBooking h2{
+    padding-top: 15px;
+}
+

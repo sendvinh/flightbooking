@@ -1,0 +1,43 @@
+.tableFormat thead {
+    background-color: lavender;
+}
+
+.tableFormat tbody {
+    background-color: #f2f2f2;
+}
+
+.tableFormat td {
+    vertical-align: middle;
+}
+
+.tableFormat .info {
+    padding-top: 0.2em;
+    text-align: center;
+}
+
+.tableFormat .subtitle {
+    padding: 0;
+    text-align: center;
+}
+
+
+.tableFormat .center {
+    text-align: center;
+}
+
+.searchForm label, .searchForm .error {
+    padding-top: 7px;
+    margin: 0;
+}
+
+.searchForm .input {
+    padding-top: 0.5em;
+}
+
+.searchForm {
+    padding-bottom: 15px;
+}
+
+.pay {
+    padding-bottom: 15px;
+}
